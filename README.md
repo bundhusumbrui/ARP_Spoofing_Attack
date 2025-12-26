@@ -5,8 +5,7 @@
 ##  ⚪ Overview
 This project demonstrates an ARP Spoofing (ARP Poisoning) attack in a controlled virtual lab to highlight security weaknesses in the Address Resolution Protocol (ARP). Since ARP does not authenticate responses, it can be exploited to perform Man-in-the-Middle (MITM) attacks.
 
-The project shows how an attacker can manipulate the victimʼs ARP table and 
-redirect network traffic through the attacker's system.
+The project shows how an attacker can manipulate the victimʼs ARP table and redirect network traffic through the attacker's system.
 
 ##  ⚪ Setup
 The experiment is performed using two virtual machines on the same virtual 
@@ -21,3 +20,8 @@ Components:
 - Attacker VM (Kali Linux - BundhuSumbrui)
 - Victim VM (Ubuntu Linux - 6606151)
 - Virtual Network (Bridged / Host-Only)
+
+Attacker can manipulate the victimʼs ARP table and redirect network traffic through the attacker's system.
+
+## ⚪ Attacker's IP Address
+
