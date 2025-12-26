@@ -65,6 +65,25 @@ Observed ARP Table:-
 ## ⚪Step 4:- Launch Attack From Attacker's Machine
 Therefore we know the Victim's IP address, we can began the attack. We will sniff the traffic on the eth0 interface by using `sudo ettercap -T -i eth0 -M arp:remote /10.191.157.28// /10.191.157.152//`
 
+![ip address]()
+
+An ARP spoofing attack is launched from the attacker machine using a network attack framework. The attacker sends forged ARP replies to the victim, falsely associating the attackerʼs MAC address with a trusted IP address.
+As a result:
+- The victimʼs ARP cache is poisoned
+- Traffic is redirected to the attacker
+- The attacker gains MITM capabilities
+
+## ⚪Step 5:- ARP Behaviour Observation: After Attacker initiates the MITM attack
+In victim's Machine we will use command `arp -n` to observe the ARP table.
+
+![ip address]()
+
+We can see that two different IP addresses has the same MAC address. Hence, we know the victim will know that their packets are being intercepted.
+
+# Conclusion
+This project successfully demonstrated an ARP Spoofing (ARP Poisoning) attack within a controlled virtual lab environment to identify security weaknesses in the Address Resolution Protocol. By utilizing a specific setup involving an Attacker Machine (Kali Linux) and a Victim Machine (Ubuntu Linux) on the same Layer-2 virtual network.
+The project provides clear evidence that local area networks are highly susceptible to spoofing attacks, emphasizing the need for stricter security measures such as static ARP entries or dynamic ARP inspection.
+
 
 
 
