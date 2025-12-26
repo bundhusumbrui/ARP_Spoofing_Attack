@@ -49,17 +49,22 @@ Gateway IP: `10.191.157.152`
 
 ## ⚪Step 3:- ARP Behaviour Observation
 
-ARP Behaviour Observation before communication
+🟢ARP Behaviour Observation before communication
 
 ![ip address](https://github.com/bundhusumbrui/ARP_Spoofing_Attack/blob/5298f8f7f9d03b64dee89aff46b8ab10f9818801/4.%20ARP%20Behaviour%20Observation%20before%20communication.png)
 
-ARP Behaviour Observation after ICMP Communication
+
+
+🟢ARP Behaviour Observation after ICMP Communication
 
 In Victim's Machine: Pinging every device in the network
 
 ![ip address](https://github.com/bundhusumbrui/ARP_Spoofing_Attack/blob/5b74222eba9fe73ab58618f2e31fd17e81de5970/5.%20Pinging%20devices%20in%20victim's%20machine.png)
 
-Observed ARP Table:-
+
+
+🟢Observed ARP Table:-
+
 ![ip address](https://github.com/bundhusumbrui/ARP_Spoofing_Attack/blob/5b74222eba9fe73ab58618f2e31fd17e81de5970/6.%20ARP%20table%20before%20attack.png)
 
 ## ⚪Step 4:- Launch Attack From Attacker's Machine
