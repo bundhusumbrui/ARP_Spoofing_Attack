@@ -27,20 +27,20 @@ Attacker can manipulate the victimʼs ARP table and redirect network traffic thr
 ## ⚪Step 1:- Check Attacker's IP and Victim's IP
 We will begin by checking our own device's IP address(i.e. Attecker's IP). We will write the command `ip a` to see the IP address.
 
-![ip address](https://github.com/bundhusumbrui/ARP_Spoofing_Attack/blob/7bc3ad5f867e3b9e1b64be6fd21f33afea36f0f2/1.%20Attacker's%20IP.png)
+![ip address]()
 Therefore Attacker's IP: `10.191.157.40`
 
 
 
 Now we will check the Victim's IP.  We will write the same command `ip a` to see the IP address.
 
-![ip address](https://github.com/bundhusumbrui/ARP_Spoofing_Attack/blob/9f7e77de7b6622b0bebc882c90cf21f7ee6a6c58/2.%20Victim's%20IP.png)
+![ip address]()
 Therefore Victim;s IP: `10.191.157.28`
 
 ## ⚪Step 2:- Checking for devices and their IPs in the network
 To check the devices and IPs connected with a same network, we will use the command `sudo nmap -sn 10.191.157.0/24`.
 
-![ip address](https://github.com/bundhusumbrui/ARP_Spoofing_Attack/blob/9f7e77de7b6622b0bebc882c90cf21f7ee6a6c58/3.%20Checking%20for%20devices.png)
+![ip address]()
 
 Here,
 Attacker's IP: `10.191.157.40`
