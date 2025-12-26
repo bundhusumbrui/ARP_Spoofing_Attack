@@ -57,15 +57,15 @@ ARP Behaviour Observation after ICMP Communication
 
 In Victim's Machine: Pinging every device in the network
 
-![ip address]()
+![ip address](https://github.com/bundhusumbrui/ARP_Spoofing_Attack/blob/5b74222eba9fe73ab58618f2e31fd17e81de5970/5.%20Pinging%20devices%20in%20victim's%20machine.png)
 
 Observed ARP Table:-
-![ip address]()
+![ip address](https://github.com/bundhusumbrui/ARP_Spoofing_Attack/blob/5b74222eba9fe73ab58618f2e31fd17e81de5970/6.%20ARP%20table%20before%20attack.png)
 
 ## ⚪Step 4:- Launch Attack From Attacker's Machine
 Therefore we know the Victim's IP address, we can began the attack. We will sniff the traffic on the eth0 interface by using `sudo ettercap -T -i eth0 -M arp:remote /10.191.157.28// /10.191.157.152//`
 
-![ip address]()
+![ip address](https://github.com/bundhusumbrui/ARP_Spoofing_Attack/blob/5b74222eba9fe73ab58618f2e31fd17e81de5970/7.%20ARP%20Poisoning.png)
 
 An ARP spoofing attack is launched from the attacker machine using a network attack framework. The attacker sends forged ARP replies to the victim, falsely associating the attackerʼs MAC address with a trusted IP address.
 As a result:
@@ -76,7 +76,7 @@ As a result:
 ## ⚪Step 5:- ARP Behaviour Observation: After Attacker initiates the MITM attack
 In victim's Machine we will use command `arp -n` to observe the ARP table.
 
-![ip address]()
+![ip address](https://github.com/bundhusumbrui/ARP_Spoofing_Attack/blob/5b74222eba9fe73ab58618f2e31fd17e81de5970/8.%20ARP%20table%20after%20attack.png)
 
 We can see that two different IP addresses has the same MAC address. Hence, we know the victim will know that their packets are being intercepted.
 
