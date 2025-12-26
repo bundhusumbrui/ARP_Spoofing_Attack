@@ -26,6 +26,10 @@ Attacker can manipulate the victimʼs ARP table and redirect network traffic thr
 # 👾STEPS FOR ATTACK
 ## ⚪Step 1:- Check Attacker's IP and Victim's IP
 We will begin by checking our own device's IP address(i.e. Attecker's IP). We will write the command `ip a` to see the IP address.
-![ip address]()
+
+![ip address](https://github.com/bundhusumbrui/ARP_Spoofing_Attack/blob/7bc3ad5f867e3b9e1b64be6fd21f33afea36f0f2/1.%20Attacker's%20IP.png)
+
+Now we will check the Victim's IP.  We will write the same command `ip a` to see the IP address.
+
 
 
