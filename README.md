@@ -80,7 +80,7 @@ In victim's Machine we will use command `arp -n` to observe the ARP table.
 
 We can see that two different IP addresses has the same MAC address. Hence, we know the victim will know that their packets are being intercepted.
 
-# Conclusion
+# 📜Conclusion
 This project successfully demonstrated an ARP Spoofing (ARP Poisoning) attack within a controlled virtual lab environment to identify security weaknesses in the Address Resolution Protocol. By utilizing a specific setup involving an Attacker Machine (Kali Linux) and a Victim Machine (Ubuntu Linux) on the same Layer-2 virtual network.
 The project provides clear evidence that local area networks are highly susceptible to spoofing attacks, emphasizing the need for stricter security measures such as static ARP entries or dynamic ARP inspection.
 
