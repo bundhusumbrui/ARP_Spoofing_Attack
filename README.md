@@ -40,7 +40,7 @@ Therefore Victim;s IP: `10.191.157.28`
 ## ⚪Step 2:- Checking for devices and their IPs in the network
 To check the devices and IPs connected with a same network, we will use the command `sudo nmap -sn 10.191.157.0/24`.
 
-![ip address]()
+![ip address](https://github.com/bundhusumbrui/ARP_Spoofing_Attack/blob/5298f8f7f9d03b64dee89aff46b8ab10f9818801/3.%20Checking%20for%20devices.png)
 
 Here,
 Attacker's IP: `10.191.157.40`
@@ -51,7 +51,7 @@ Gateway IP: `10.191.157.152`
 
 ARP Behaviour Observation before communication
 
-![ip address]()
+![ip address](https://github.com/bundhusumbrui/ARP_Spoofing_Attack/blob/5298f8f7f9d03b64dee89aff46b8ab10f9818801/4.%20ARP%20Behaviour%20Observation%20before%20communication.png)
 
 ARP Behaviour Observation after ICMP Communication
 
