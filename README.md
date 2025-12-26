@@ -26,6 +26,6 @@ Attacker can manipulate the victimʼs ARP table and redirect network traffic thr
 # 👾STEPS FOR ATTACK
 ## ⚪Step 1:- Check Attacker's IP and Victim's IP
 We will begin by checking our own device's IP address(i.e. Attecker's IP). We will write the command `ip a` to see the IP address.
-
+![ip address]()
 
 
